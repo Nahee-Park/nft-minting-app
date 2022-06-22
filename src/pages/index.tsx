@@ -93,7 +93,7 @@ const Home: NextPage = () => {
         console.log(`Mined, see transaction: https://rinkeby.etherscan.io/tx/${nftTxn.hash}`);
       } else {
         // eslint-disable-next-line prettier/prettier
-        console.log("Ethereum object doesn't exist!");
+        console.log('Ethereum object doesn\'t exist!');
       }
     } catch (error) {
       console.log(error);
@@ -182,13 +182,13 @@ const Styled = {
     }
 
     .gradient-text {
-      background: linear-gradient(left, #60c657 30%, #35aee2 60%);
+      background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
       background-clip: text;
       -webkit-text-fill-color: transparent;
     }
 
     .connect-wallet-button {
-      background: linear-gradient(left, #60c657, #35aee2);
+      background: -webkit-linear-gradient(left, #60c657, #35aee2);
       background-size: 200% 200%;
       animation: gradient-animation 4s ease infinite;
     }
@@ -208,7 +208,7 @@ const Styled = {
 
     .mint-button {
       margin-right: 15px;
-      background: linear-gradient(left, #a200d6, #ff6fdf);
+      background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
       background-size: 200% 200%;
       animation: gradient-animation 4s ease infinite;
     }
